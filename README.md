@@ -9,7 +9,8 @@ Two extraction patterns are used depending on what Stake.com exposes for each ga
 | Pattern | Games | How |
 |---|---|---|
 | **Calculation page** | Bars, Cases, Packs, Plinko, Tarot | Navigates to `stake.com/provably-fair/calculation`, selects the game and difficulty, applies dummy seeds, reads the rendered table |
-| **Game page scraper** | Chicken, Darts, Pump, Snakes, Wheel | Navigates to the live game page, interacts with in-game difficulty/row controls, reads multipliers from the DOM |
+| **Game page scraper** | Chicken, Darts, Pump, Snakes | Navigates to the live game page, interacts with in-game difficulty/row controls, reads multipliers from the DOM |
+| **Game events page** | Wheel | Navigates to `stake.com/provably-fair/game-events`, finds the Wheel code block, and evaluates the embedded `PAYOUTS` variable |
 
 Each game is a `GameConfig` (name + async strategy function). The main runner opens one browser, runs each strategy in sequence, and writes results to `outputs/{game-name}-paylines.json`.
 
