@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/provably-fair-betting/verifierform-stake-paylines/compare/v1.1.0...v1.1.1) (2026-05-11)
+
+
+### Chores
+
+* add version badge and move consumer usage to top of README ([e5e1f63](https://github.com/provably-fair-betting/verifierform-stake-paylines/commit/e5e1f63817615e187d308efac1fd4668cceaaedc))
+* trigger badge update on release publish only ([bbffc0c](https://github.com/provably-fair-betting/verifierform-stake-paylines/commit/bbffc0c0ed71539eb47842aee8bfc3f2eb3a6a15))
+
 ## [1.1.0](https://github.com/provably-fair-betting/verifierform-stake-paylines/compare/v1.0.0...v1.1.0) (2026-05-11)
 
 
