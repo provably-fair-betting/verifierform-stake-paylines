@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.3](https://github.com/provably-fair-betting/verifierform-stake-paylines/compare/v1.1.2...v1.1.3) (2026-05-16)
+
+
+### Chores
+
+* remove ci from release-please changelog sections ([896af72](https://github.com/provably-fair-betting/verifierform-stake-paylines/commit/896af72b6060c763dde1d69a96e5cb7c4c2b2cd6))
+* update pnpm lockfile to match package.json specifiers ([fb36c9b](https://github.com/provably-fair-betting/verifierform-stake-paylines/commit/fb36c9b293bc34324f0e160c1f29c95301af113a))
+* update version badge [skip ci] ([5a8942c](https://github.com/provably-fair-betting/verifierform-stake-paylines/commit/5a8942c7276fba33642b2bd811beafca92a7dadb))
+
 ## [1.1.2](https://github.com/provably-fair-betting/verifierform-stake-paylines/compare/v1.1.1...v1.1.2) (2026-05-11)
 
 
