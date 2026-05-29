@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/provably-fair-betting/verifierform-stake-payline-extractor/compare/v1.1.3...v2.0.0) (2026-05-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* Rename published package from verifierform-stake-payline to verifierform-stake-payline-extractor
+
+### Features
+
+* rename project to verifierform-stake-payline-extractor ([ac67a27](https://github.com/provably-fair-betting/verifierform-stake-payline-extractor/commit/ac67a2737b16549d79fc84eba7483b7e284dcb04))
+
 ## [1.1.3](https://github.com/provably-fair-betting/verifierform-stake-paylines/compare/v1.1.2...v1.1.3) (2026-05-16)
 
 
