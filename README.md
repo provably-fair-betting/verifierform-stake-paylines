@@ -1,7 +1,7 @@
-# verifierform-stake-paylines
+# verifierform-stake-payline-extractor
 
-[![CI](https://github.com/provably-fair-betting/verifierform-stake-paylines/actions/workflows/ci.yml/badge.svg)](https://github.com/provably-fair-betting/verifierform-stake-paylines/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/github/v/release/provably-fair-betting/verifierform-stake-paylines)](https://github.com/provably-fair-betting/verifierform-stake-paylines/releases/latest)
+[![CI](https://github.com/provably-fair-betting/verifierform-stake-payline-extractor/actions/workflows/ci.yml/badge.svg)](https://github.com/provably-fair-betting/verifierform-stake-payline-extractor/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/v/release/provably-fair-betting/verifierform-stake-payline-extractor)](https://github.com/provably-fair-betting/verifierform-stake-payline-extractor/releases/latest)
 
 Automated payline extractor for [Stake.com](https://stake.com) provably fair games. Drives a real browser via Puppeteer to navigate each game's provably fair calculation page or live game page, interact with difficulty/row selectors, and scrape the resulting multiplier tables into structured JSON.
 
@@ -10,7 +10,7 @@ Automated payline extractor for [Stake.com](https://stake.com) provably fair gam
 Install as a dev dependency in another project using the GitHub package URL pinned to a release tag:
 
 ```bash
-pnpm add -D github:provably-fair-betting/verifierform-stake-paylines#v1.0.0
+pnpm add -D github:provably-fair-betting/verifierform-stake-payline-extractor#v1.0.0
 ```
 
 Add a script to the consumer's `package.json` and pass `--output-dir` to control where payline JSON files are written:
